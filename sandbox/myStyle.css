@@ -1,0 +1,14 @@
+html,body,div {
+        height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+#player {
+	margin-left: 20%;
+}
+
+#playlist {
+	width: 20%;
+	display: inline;
+}
