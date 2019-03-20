@@ -56,11 +56,6 @@ a:hover {
   outline: 0;
 }
 
-h1 {
-  margin: 0.67em 0;
-  font-size: 2em;
-}
-
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -82,7 +77,10 @@ hr {
 
 mark {
   color: #000;
-  background: #ff0;
+  background: #fff;
+  padding-left: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
 }
 
 code,
@@ -462,7 +460,7 @@ h6 .small {
 
 h1,
 .h1 {
-  font-size: 39px;
+  font-size: 48px;
 }
 
 h2,
@@ -6724,11 +6722,15 @@ button.close {
 }
 
 .carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > video,
+.carousel-inner > .item > a > video {
   display: block;
   height: auto;
   max-width: 100%;
   line-height: 1;
+  margin:auto;
+  max-height: 400px;
 }
 
 .carousel-inner > .active,

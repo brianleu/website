@@ -159,13 +159,20 @@ hr {
 	font-size: 22px;
 	}
 
-#carousel-example-generic {
-	width:100%;
-	margin:auto;
-}
+  #carousel-rfq {
+    width:100%;
+    margin:auto;
+  }
 
 
-@media (min-width: 525px) { /*start small-width*/
+  #carousel-edges {
+    width:100%;
+    margin:auto;
+  }
+    
+
+@media (min-width: 525px) { /*start small-width*/
+
 
 .navbar {
 	width:15%;
@@ -226,11 +233,6 @@ hr {
 	margin:auto;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img{
-		margin:auto;
-		vertical-align:middle;
-}
-
 .carousel-inner > .item, .carousel-inner {
 		height:100%;
 }
@@ -246,10 +248,4 @@ hr {
 
 .btn {
 	width:33.33333%
-}
-
-
-#carousel-example-generic {
-	width:100%;
-	margin:auto;
 }
